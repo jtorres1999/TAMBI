@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
     <link href="css/templatemo-diagoona.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="./img/sinfondo.png">
 </head>
 <body>
@@ -66,7 +67,8 @@
                                 <textarea rows="6" name="message" class="form-control" placeholder="Message..." required=""></textarea>
                             </div>
                             <div class="text-right">
-                                <button type="submit" class="btn btn-big btn-primary">Enviar Opinión</button>
+                                <button type="button" class="btn btn-big btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    Enviar Opinión</button>
                             </div>
                         </form>
                     </section>
@@ -97,6 +99,31 @@
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" style="color: black;">EN MANTENIMIENTO</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="color: black;">
+              Pronto nos podras dar tu opinion
+            </div>
+            <div class="modal-footer">
+              
+              <button type="button" class="btn btn-primary " data-dismiss="modal">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=+573137062752&text=Buen%21%20dia%20estoy%20%20interesado%20en%20cotizar%20un%20servicio%20de%20trasteo." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+      <a href="https://instagram.com/tambi_t.a?igshid=YmMyMTA2M2Y=" class="floats">
+        <i class="fa fa-instagram my-floats"></i>
+        </a>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.backstretch.min.js"></script>
